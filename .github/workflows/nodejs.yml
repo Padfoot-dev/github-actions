@@ -30,8 +30,7 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run app
-      run: npm start
+    
 
   deploy:
     runs-on: ubuntu-latest
